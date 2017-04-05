@@ -1,24 +1,19 @@
-# README
+# Ruby Guild 5/4/2017
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+learn Active Records
 
-Things you may want to cover:
+#retrieve object
+bisa mencari berdasarkan id, atribut
+find_by maksimal untuk positive match, selain itu tidak bisa.
+find : error bila tidak ada
+find_by : bila tidak ada return Nil object
 
-* Ruby version
+.first #return active record
+.first(x) #return array, beda penanganan
 
-* System dependencies
+.where #bisa negative match
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+resource : http://slides.com/qblfrb/active-record
