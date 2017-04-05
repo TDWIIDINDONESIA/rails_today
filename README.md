@@ -11,9 +11,21 @@ find_by : bila tidak ada return Nil object
 .first #return active record
 .first(x) #return array, beda penanganan
 
+#condition
 .where #bisa negative match
 
+#ordering
+
+#join : memudahkan sekali, misalpun kita belum terlalu paham konsep join di sql (querynya)
+
+#includes
 
 
+#kegunaan
+- memudahkan kita query dengan minimum query
+- 
 
-resource : http://slides.com/qblfrb/active-record
+resource : 
+http://slides.com/qblfrb/active-record
+https://en.wikipedia.org/wiki/Active_record_pattern
+http://guides.rubyonrails.org/active_record_basics.html
